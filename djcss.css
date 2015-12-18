@@ -1,7 +1,6 @@
-body,div{margin:0;padding:0}
+body,div,img{margin:0;padding:0}
 body,html{height:100%;}
 body{background:#fff;}
-
 .panel-container{
     width: 100%;
     margin: 0 auto;
@@ -13,12 +12,25 @@ body{background:#fff;}
     overflow-x: hidden;
 }
 
-
+h1{
+    padding: 0;
+    margin: 0 auto;
+    /*border: solid 1px #FF0000;*/
+}
+p{
+    padding: 0;
+    margin: 0;
+    /*border: solid 1px #b479ff;*/
+    width: 80%;
+    margin: 0 auto;
+}
 
 /*-----------------行------------------*/
 .row{
     margin: 0 auto;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .row-12{
@@ -60,12 +72,22 @@ body{background:#fff;}
     height: 100%;
     display: inline-block;
     margin-right: -3px;
-    margin-left: -3px
+    margin-left: -3px;
+    padding: 0;
+    margin-top: 0;
+
+    /*设为scroll 则每个colum 内部滚动*/
+    overflow: scroll;
+    /*overflow: hidden;*/
+
 }
 
 .colum img{
     width: 100%;
+    background: #FF0000;
 }
+
+
 .colum-12{
     width: 100%;
 }
