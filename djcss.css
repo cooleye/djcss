@@ -1,0 +1,98 @@
+body,div{margin:0;padding:0}
+body,html{height:100%;}
+body{background:#fff;}
+
+.panel-container{
+    width: 100%;
+    margin: 0 auto;
+    font-family: "黑体";
+    font-size: 12px;
+    text-align: center;
+    background: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+/*-----------------行------------------*/
+.row{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.row-12{
+    height: 100%;
+}
+.row-10{
+    height: 83.33%;
+}
+.row-9{
+    height: 75%;
+}
+.row-8{
+    height: 66.66%;
+}
+.row-7{
+    height: 58.33%;
+}
+.row-6{
+    height: 50%;
+ }
+.row-5{
+    height: 41.66%;
+}
+.row-4{
+    height: 33.33%;
+}
+.row-3{
+    height: 25%;
+}
+.row-2{
+    height: 16.66%;
+}
+
+
+
+
+/*-----------------列------------------*/
+.colum{
+    height: 100%;
+    display: inline-block;
+    margin-right: -3px;
+    margin-left: -3px
+}
+
+.colum img{
+    width: 100%;
+}
+.colum-12{
+    width: 100%;
+}
+.colum-10{
+    width: 83.33%;
+}
+.colum-9{
+    width: 75%;
+}
+.colum-8{
+    width: 66.66%;
+}
+.colum-7{
+    width: 58.33%;
+}
+.colum-6{
+    width: 50%;
+}
+.colum-5{
+    width: 41.66%;
+}
+.colum-4{
+    width:33.33%;
+}
+.colum-3{
+    width:25%;
+}
+.colum-2{
+    width:16%;
+}
