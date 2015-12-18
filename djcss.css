@@ -8,8 +8,10 @@ body{background:#fff;}
     font-size: 12px;
     text-align: center;
     background: #fff;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /*overflow-y: scroll;*/
+    /*overflow-y: hidden;*/
+    /*overflow-x: hidden;*/
+    overflow: hidden;
 }
 
 h1{
